@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/newbaground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+	 android:id="@+id/mypath"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text="Complete Path"
+     />
+    <Gallery 
+		android:id="@+id/picturesTaken" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+		<ImageView
+        android:id="@+id/image1"
+        android:layout_width="320px" 
+        android:layout_height="250px"
+        android:scaleType="fitXY" />
+		</LinearLayout>
+		

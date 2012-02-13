@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+android:background="@drawable/newbaground"
+  	android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearid" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+
+			<RadioGroup 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:orientation="vertical"
+				android:layout_marginLeft="60px"
+				android:layout_marginTop="80px"
+				android:id="@+id/Group1">
+				<RadioButton 
+					android:id="@+id/rad1" 
+					android:text="Manual Sync"
+					android:layout_width="300px" 
+					android:layout_height="wrap_content"/>
+				
+				<RadioButton 
+					android:id="@+id/rad2" 
+					android:text="Auto Sync"
+					android:layout_width="300px" 
+					android:layout_height="wrap_content"/>
+					
+					<RadioButton 
+					android:id="@+id/rad3" 
+					android:text="Do Not Sync"
+					android:layout_width="300px" 
+					android:layout_height="wrap_content"/>
+				
+			</RadioGroup>
+</LinearLayout>
+<LinearLayout 
+	  	android:id="@+id/footer"
+ 		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true" 
+	    android:background="@android:color/transparent"
+	    style="@android:style/ButtonBar">
+  
+            
+	     <Button
+          android:id="@+id/back"
+          android:visibility="gone"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"  
+          android:layout_gravity="center" 
+          android:layout_marginLeft="70dp"
+          android:text="Back" /> 
+      
+	    </LinearLayout>
+</RelativeLayout>

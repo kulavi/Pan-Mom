@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newbaground"
+   
+    >
+   
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10px"
+    android:textColor="#000000"
+    android:text="User Name"
+    />
+    
+    <EditText 
+    android:id="@+id/edtuname" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10px"
+    android:layout_marginRight="10px"
+    android:hint="user name"/>
+   
+    
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10px"
+    android:textColor="#000000"
+    android:text="Password"
+    />
+    <EditText
+    android:id="@+id/edtpwd"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="password"
+    android:layout_marginLeft="10px"
+    android:layout_marginRight="10px"
+    android:password="true"/>
+    <TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10px"
+    android:layout_marginTop="10px">
+    <TableRow>
+    <CheckBox 
+    android:id="@+id/chkremember" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10px"
+    android:textColor="#000000"
+    android:text="Remember"  
+    />
+    
+    
+    <Button
+    android:id="@+id/btnlogin"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20px"
+    android:text="@string/strlogin"
+    />  
+      
+    
+    </TableRow>  
+    </TableLayout>
+    
+     
+    
+    
+    <!--<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="20px"
+    android:typeface="sans"
+    android:textSize="15px"
+    android:textColor="#000000"
+    android:layout_marginLeft="70px"
+    android:layout_marginRight="70px"
+    android:text="@string/strlogin_other"
+    />
+    <TableLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10px"
+    android:layout_marginTop="20px">
+    <TableRow >
+    
+    <Button  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50px"
+    android:background="@drawable/small_gmail"
+    />  
+    
+    <Button  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20px"
+    android:background="@drawable/small_fb1"
+    />  
+    <Button  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20px"
+    android:background="@drawable/small_tweet"
+    />  
+    </TableRow>
+     
+    </TableLayout>
+    --><TextView   
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="30px"
+    android:typeface="sans"
+    android:textSize="15px"
+    android:textColor="#000000"
+    android:layout_marginLeft="55px"
+    android:layout_marginRight="55px"
+    android:text="@string/strnot_member"
+    />
+    
+    <Button  
+    android:id="@+id/btnregister"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="80px"
+    android:layout_marginRight="80px"
+    android:layout_marginTop="20px" 
+    android:padding="20dip"
+    android:text="@string/strregister"
+    />  
+    
+</LinearLayout>
+</ScrollView>

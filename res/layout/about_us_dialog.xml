@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:background="@drawable/newbaground">
+      
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+ 
+ <TableRow>
+       <TextView 
+       		android:paddingLeft="20px"
+			android:id="@+id/slideshowDialog"
+       		android:layout_width="wrap_content" 
+       		android:layout_height="wrap_content" 
+       		android:textColor="#000000"/>
+       		</TableRow>
+       		<TableRow>
+       		<TextView 
+       		android:paddingLeft="20px"
+			android:id="@+id/slideshowDialog1"
+       		android:layout_width="wrap_content" 
+       		android:layout_height="wrap_content" 
+       		android:textColor="#000000"/>
+       		</TableRow>
+      </TableLayout><!--
+      
+      
+      <LinearLayout
+      	android:layout_below="@id/slideshowDialog"
+  		android:id="@+id/buttonCapsule"
+  		android:orientation="horizontal"
+       	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+      	android:layout_marginTop="180px"
+      	android:layout_marginLeft="100px">
+       <Button 
+       		android:id="@+id/ok" 
+       		android:layout_width="wrap_content" 
+       		android:layout_height="wrap_content"
+       		android:text="OK"/>
+       	</LinearLayout>	
+      --></RelativeLayout>

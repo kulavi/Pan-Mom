@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Pan-Mom Android App!</string>
+    <string name="app_name">Pan_Mom</string>
+    <string name="strregister">Register</string>
+    <string name="strlogin">Login</string>
+    <string name="strreset">Back</string>
+    <string name="strnot_member"><u>Not a Member Yet?</u></string>
+    <string name="strlogin_other"><u>OR Login With</u></string>
+    <string name="strlogout"><u>Logout</u></string>
+    <string name="strcalculate">Calculate</string>
+    <string name="strdone">Submit</string>
+    
+    <string-array name="Avg_Cycle_length">
+		<item>20</item>
+		<item>21</item>   
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+    
+    <string-array name="condition1">
+		<item>Before workout</item>
+		<item>After workout</item>   
+        <item>workout nonspecific</item>
+     </string-array>
+        
+    <string-array name="condition2">
+		<item>Before Meal</item>
+		<item>After Meal</item>   
+        <item>Meal no-specific</item>
+     </string-array>
+        
+     <string-array name="testglucose">
+		<item>No Meal</item>
+		<item>Pre Meal</item>   
+        <item>Post Meal</item>
+     </string-array>
+        
+     <string-array name="hand">
+		<item>Right</item>
+		<item>Left</item>          
+     </string-array>
+    
+    
+    
+    
+</resources>

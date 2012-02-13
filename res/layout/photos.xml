@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"  
+ android:background="@drawable/newbaground"       
+ android:layout_centerHorizontal="true">
+ <TextView
+	 android:id="@+id/path"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:text=""
+     />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="20px"
+    android:layout_alignParentBottom="true"
+    >
+
+<GridView
+		android:id="@+id/gridView1"
+		android:background="@drawable/newbaground"  
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:numColumns="auto_fit"
+    	android:horizontalSpacing="10dp"
+    	android:verticalSpacing="10dp">
+    </GridView>
+    
+    
+    <!--<GridView
+		android:id="@+id/gridView2"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:numColumns="auto_fit"
+    	android:horizontalSpacing="10dp"
+    	android:verticalSpacing="10dp">
+    </GridView>
+--></LinearLayout>	
+ 
+<LinearLayout 
+	  	android:id="@+id/footer"
+ 		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true"
+		android:background="@android:color/transparent"
+	    style="@android:style/ButtonBar">
+	    
+	    
+	     <Button
+          android:id="@+id/takephoto"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true" 
+                
+          android:text="Take Photo"/>
+            
+	     <Button
+          android:id="@+id/uploadphoto"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+         
+          android:text="Upload Photo" /> 
+      
+	    </LinearLayout>
+  
+</RelativeLayout> 
+
+	    

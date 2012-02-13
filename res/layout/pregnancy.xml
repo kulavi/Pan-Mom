@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+    android:background="@drawable/background"
+  	android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+    <TableLayout
+android:id="@+id/widget30"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<SeekBar
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginLeft="10px"
+   android:layout_marginRight="10px"
+   android:layout_marginTop="10px"
+   android:id="@+id/seekbar"
+
+   />
+<!--<SeekBar
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginLeft="10px"
+   android:layout_marginRight="10px"
+   android:layout_marginTop="10px"
+   android:progressDrawable="@drawable/seekbar_progress"
+   android:thumb="@drawable/arrow"
+   android:id="@+id/seekbar"
+
+   />
+
+   --><TableRow>
+<TextView
+android:id="@+id/conceived"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="ConceivedDate"
+android:textColor="#000000"
+android:layout_alignParentTop="true"
+android:layout_alignParentRight="true"
+android:textSize="12sp"
+android:layout_above="@+id/seekbar"
+>
+</TextView>
+<TextView
+android:id="@+id/due"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Duedate"
+android:textColor="#000000"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="180dp"
+android:textSize="12sp"
+>
+</TextView>
+</TableRow>
+</TableLayout>
+</LinearLayout>
+ <!--<TableLayout
+android:id="@+id/widget30"
+android:layout_marginTop="100px"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TableRow >      
+<Button
+     android:id="@+id/btntrackar"
+     android:layout_marginLeft="40px"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/mytracker"/>
+     
+      <Button
+     android:id="@+id/btnsymptom"
+     android:layout_marginLeft="20px"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/symptoms"/>
+     
+      <Button
+     android:id="@+id/btndrinfo"
+     android:layout_marginLeft="20px" 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/doctrinfo"/>
+     </TableRow>
+     </TableLayout>
+    --><LinearLayout 
+	  	android:id="@+id/footer"
+ 		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true" 
+	    android:background="@drawable/transperent2"
+	    style="@android:style/ButtonBar">
+	    
+	    
+	 <Button
+     android:id="@+id/btntrackar"
+     
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/mytracker"/>
+     
+      <Button
+     android:id="@+id/btnsymptom"
+     
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/symptoms"/>
+     
+      <Button
+     android:id="@+id/btndrinfo"
+     
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/doctrinfo"/>
+      <Button
+     android:id="@+id/btnsetting"
+     
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/symptoms"/>
+      <Button
+     android:id="@+id/btnsync"
+     
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/mytracker"/>
+      
+	    </LinearLayout>
+
+</RelativeLayout>
+</merge>
+

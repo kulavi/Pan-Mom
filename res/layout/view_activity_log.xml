@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+    android:layout_height="fill_parent" 
+android:background="@drawable/newbaground"
+    android:layout_width="fill_parent">
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		
+		>
+<HorizontalScrollView 
+android:id="@+id/HorizontalScrollView01" 
+android:layout_height="fill_parent" 
+android:layout_width="wrap_content">		
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:id="@+id/ll"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	>
+	<TextView
+				android:id="@+id/txtexercise"   
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textSize="30px"
+				android:layout_marginLeft="25px"
+				android:layout_marginTop="20px"/>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/tbl_exercise_log" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		</TableLayout>
+		
+		<TextView
+				android:id="@+id/txtwalking"   
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textSize="30px"
+				android:layout_marginLeft="25px"
+				android:layout_marginTop="20px"/>
+		
+		
+		
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/tbl_walking_log" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		
+		
+	</TableLayout> 
+		
+</LinearLayout>
+</HorizontalScrollView>
+</ScrollView>
+<LinearLayout android:id="@+id/footer1"
+ 					android:layout_width="fill_parent"
+				    android:layout_height="wrap_content" 
+				    android:orientation="horizontal"
+				    android:layout_alignParentBottom="true"
+					android:background="@android:color/transparent"
+				    style="@android:style/ButtonBar">
+
+				    <Button android:id="@+id/btnedit"   
+				    	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:gravity="center_horizontal"
+				        android:text="Edit" />
+				        <Button android:id="@+id/btndel"   
+				    	android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_weight="1"
+				        android:gravity="center_horizontal"
+				        android:text="Delete" />
+					
+</LinearLayout>
+</RelativeLayout>

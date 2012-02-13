@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#FFFFFFFF">
+	
+		<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/mail_table1" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:paddingLeft="5px" 
+		android:layout_marginTop="20px"	
+		android:paddingTop="10px">	
+		<TableRow>
+			<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textStyle="bold" 
+				android:textColor="#000000" 
+				android:text="Enter Week Number" />
+				<EditText 
+				android:id="@+id/edtno" 
+				android:layout_width="90px"
+				android:inputType="number"
+				android:layout_height="wrap_content"/>
+		</TableRow>
+		</TableLayout>
+			<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/mail_table1" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="20px"
+		android:layout_marginLeft="55px"> 
+			
+				
+		<TableRow>
+					<Button 
+					android:id="@+id/btnadd" 
+					android:layout_width="90sp"
+					android:layout_height="wrap_content" 
+					android:text="Done"/>
+					<Button 
+					android:id="@+id/btncancel" 
+					android:layout_width="90sp"
+					android:layout_height="wrap_content" 
+					android:text="Cancel"/>
+		</TableRow> 
+	</TableLayout> 
+	
+	</LinearLayout>
+	
+	

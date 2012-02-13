@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.Pan_Mom_Home"
+      android:installLocation="preferExternal" 
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    
+    
+
+    <uses-permission android:name="android.permission.CAMERA" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+     <uses-permission android:name="android.permission.INTERNET"/>
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+     <uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+    <application android:label="@string/app_name" android:theme="@style/CustomTheme" android:icon="@drawable/panmom_icon">
+
+        <activity android:name=".Homepage"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".Feedback"
+                  android:label="@string/app_name">
+            <intent-filter>
+                  <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 	<activity android:name=".Pan_MomActivity"
+                  android:label="@string/app_name">
+            <intent-filter> 
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+	<activity android:name=".About_app"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register_user"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Symptom"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_symptom"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_due_date"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Photo"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CameraDemo"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Calculate_due_date"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dashboard"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BPtab"
+                  android:label="@string/app_name" 
+                  android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_BP_data"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_BP_Log"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HBtab"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_HB_data"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Week"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".View_HB_Log"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WTtab"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_WT_data"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_WT_Log"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Foodtab"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_Food_data"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_Food_Log"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activitytab"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_Activity_data"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_Activity_Log"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Glucosetab"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_Glucose_data"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_Glucose_Log"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hearttab"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Enter_Heart_data"
+                  android:label="@string/app_name"
+                   android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_Heart_Log"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Doctor_Info"
+                  android:label="@string/app_name" 
+                  android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyTrackers"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pregnancy"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Setting"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sync"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Gallery_view"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewImage"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CoverFlowExample"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Open_gallery_to_upload"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".Enter_med_name"
+                  android:label="@string/app_name">
+            <intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ <service android:enabled="true" android:name=".Autosync" />
+
+    </application>
+</manifest>

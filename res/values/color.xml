@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <color name="white">#FFFFFF</color>
+ <color name="black">#9ACD32</color>
+  <color name="title_background">#ff6699</color>
+    <color name="title_text">#ffffffff</color>
+    <color name="title_text_alt">#ff000000</color>
+    <color name="foreground1">#ff355689</color>
+    <color name="foreground2">#ff7081a3</color>
+    <color name="background1">#ffffffff</color>
+    <color name="background2">#ffd5ddeb</color>
+    <color name="background3">#ffe3e8f1</color>
+    <color name="title_separator">#40ffffff</color>
+    <color name="app_background">#fff5f5f5</color>
+	<color name="light_red">#ba0305</color>
+	<color name="dark_red">#9d0c0f</color>
+		
+	<color name="text_tab_selected">#5d5d5d</color>
+	<color name="text_tab_unselected">#838183</color>
+</resources>  

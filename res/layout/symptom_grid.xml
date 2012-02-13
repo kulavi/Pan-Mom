@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+    android:background="@drawable/newbaground"
+  	android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40px"
+    android:stretchColumns="1">
+<TableRow>
+
+	<Button
+		android:id="@+id/imageButton1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/s_arrow1"
+		android:padding="3dip"/>
+
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="Symptom for Week"
+	    android:editable = "true"
+	    android:id="@+id/text"
+        android:padding="3dip"
+        android:textSize="15px"
+        android:paddingRight="10px"
+        android:gravity="center_vertical|center_horizontal"/>
+
+
+	<Button 
+		android:id="@+id/imageButton2" 
+		android:layout_width="wrap_content" 
+		android:background="@drawable/s_arrow2"
+		android:layout_height="wrap_content"
+	  	android:padding="3dip"/>
+
+  </TableRow>
+</TableLayout>
+</LinearLayout>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_marginTop="40px"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <GridView
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/GridView1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="10dp"
+    android:numColumns="1"
+    android:columnWidth="100dp"
+    android:gravity="center">
+</GridView>
+      
+</LinearLayout>  
+<LinearLayout 
+	  	android:id="@+id/footer"
+ 		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true" 
+	    android:background="@android:color/transparent"
+	    style="@android:style/ButtonBar">
+	    
+	    
+	     <Button
+          android:id="@+id/addsymptom"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"  
+          android:layout_gravity="center" 
+          android:layout_marginLeft="100dp"       
+          android:text="Add Symptom"/>
+       
+      
+	    </LinearLayout>
+
+
+</RelativeLayout>

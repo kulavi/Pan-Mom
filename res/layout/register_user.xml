@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newbaground"
+    >
+     <TextView
+         android:textColor="#000000"
+        android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+         android:id="@+id/txtmsg"
+         android:text="* required fields"
+        
+          />
+
+	<ScrollView 
+	android:id="@+id/scrollView1" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="wrap_content"
+     android:layout_height="fill_parent"
+     android:layout_marginRight="5px"
+     android:stretchColumns="1">
+     
+     <TableRow>
+    
+	     <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:id="@+id/txtuser"
+	      android:text="User Login"
+	      android:layout_marginLeft="5px"
+	   android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	      android:padding="3dip" />
+	      
+	  
+	     <EditText 
+	      android:id="@+id/userlogin"
+	      android:layout_width="150sp" 
+	  
+	      android:layout_height="wrap_content" 
+	      android:padding="4dip"/>
+	      
+	    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:id="@+id/txtemail"
+         android:text="Email Address"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+         
+        <EditText
+         android:id="@+id/emailaddr"
+         android:inputType="textEmailAddress" 
+         android:layout_width="150sp" 
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Password"
+         android:id="@+id/txtpass"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+          
+        <EditText
+         android:id="@+id/password" 
+         android:password="true"
+         android:layout_width="150sp" 
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:id="@+id/txtconfpass"
+         android:text="Confirm Password"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+         
+        <EditText
+         android:id="@+id/confpassword"
+         android:password="true" 
+         android:layout_width="150sp" 
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Name"
+           android:id="@+id/txtname"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/name" 
+         android:inputType="textCapSentences"
+         android:layout_width="150sp" 
+         
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <!--<TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="LMP"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/lmp" 
+         android:inputType="date"
+         android:layout_width="150sp" 
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="EDD"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/edd" 
+         android:inputType="date"
+         android:layout_width="150sp" 
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    --><TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Age"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/age" 
+         android:inputType="number"
+         android:layout_width="150sp" 
+         android:maxLength="3"
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Occupation(self)"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/occpself" 
+         android:inputType="text"
+         android:layout_width="150sp" 
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Occupation(Husband)"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/occphusband"
+         android:inputType="text"  
+         android:layout_width="150sp" 
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Mobile No(self)"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/mobself" 
+         android:inputType="number"
+         android:layout_width="150sp" 
+         android:maxLength="10"
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Mobile No(Husband)"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/mobhusband"
+         android:inputType="number" 
+         android:layout_width="150sp" 
+         android:maxLength="10"
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+         android:textColor="#000000"
+         android:layout_column="1"
+         android:text="Mobile No(Guardian)"
+         android:layout_marginLeft="5px"
+         android:padding="3dip" />
+        <EditText
+         android:id="@+id/mobguardian" 
+         android:inputType="number"
+         android:layout_width="150sp" 
+         android:maxLength="10"
+         android:layout_height="wrap_content" 
+         android:padding="4dip"/>
+     </TableRow>
+     
+     <Button 
+      android:id="@+id/register" 
+      android:layout_height="wrap_content" 
+      android:text="@string/strregister"
+      android:layout_width="120dp"></Button>
+
+	</TableLayout>
+	</ScrollView>
+	</LinearLayout>
+ 
+

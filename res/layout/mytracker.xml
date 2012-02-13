@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="@drawable/newbaground"
+		>
+		<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+  android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+            		    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/flipper"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_marginRight="5px"
+     android:stretchColumns="1">
+     <TableRow>
+	     <TextView 
+      android:id="@+id/txtname" 
+      android:layout_height="wrap_content" 
+      android:textColor="#000000"
+      android:layout_width="wrap_content"/>
+	      
+	     <TextView 
+      android:id="@+id/txtlogout" 
+      android:layout_height="wrap_content" 
+      android:text="@string/strlogout"
+      android:layout_marginLeft="100px"
+      android:textColor="#000000"
+      android:layout_width="wrap_content"/>
+	    </TableRow>
+    </TableLayout>
+
+    <Button 
+      android:id="@+id/weight" 
+      android:layout_height="45dp" 
+      android:text="Weight"
+      android:layout_width="fill_parent"></Button>
+      
+      
+      <Button 
+      android:id="@+id/hemoglobin" 
+      android:layout_height="45dp" 
+      android:text="Hemoglobin"
+      android:layout_width="fill_parent"></Button>
+    
+      <Button 
+      android:id="@+id/food" 
+      android:layout_height="wrap_content" 
+      android:text="Food"
+      android:layout_width="fill_parent"></Button>
+     
+      <Button 
+      android:id="@+id/activity" 
+      android:layout_height="wrap_content" 
+      android:text="Activities"
+      android:layout_width="fill_parent"></Button>
+     
+      <Button 
+      android:id="@+id/glucose" 
+      android:layout_height="wrap_content" 
+      android:text="Glucose"
+      android:layout_width="fill_parent"></Button>
+      
+      <Button 
+      android:id="@+id/bp" 
+      android:layout_height="wrap_content" 
+      android:text="BP"
+      android:layout_width="fill_parent"></Button>
+     
+      <Button 
+      android:id="@+id/heart" 
+      android:layout_height="wrap_content" 
+      android:text="Heart"
+      android:layout_width="fill_parent"></Button>
+
+</LinearLayout>
+  </ViewFlipper>
+</RelativeLayout>
+</ScrollView>

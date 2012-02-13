@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+    android:background="@drawable/newbaground"
+  android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+    		<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		
+		>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    >
+
+		
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_marginRight="5px"
+     android:stretchColumns="1">
+     <TableRow>
+	     <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Enter Date"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <EditText 
+	      android:id="@+id/date"
+	      android:inputType="none"
+	      android:layout_width="150sp" 
+	      android:layout_height="wrap_content" 
+	      android:hint="tap to select date"
+	      android:textSize="7pt"
+	      android:padding="4dip"/>
+	    </TableRow>
+	    <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Exercise"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	    <TableRow>
+	     <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Duration"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <EditText 
+	      android:id="@+id/eduration"
+	      android:layout_width="150sp" 
+	      android:layout_height="wrap_content"
+	      android:hint="tap to set time " 
+	      android:inputType="none"
+	      android:padding="4dip"/>
+	    </TableRow>
+	    <TableRow>
+	    <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Calories Burned"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <EditText 
+	      android:id="@+id/ecalori"
+	      android:layout_width="150sp" 
+	      android:layout_height="wrap_content" 
+	      android:textSize="7pt"
+	      android:maxLength="5"
+	      android:inputType="numberDecimal"
+	      android:padding="4dip"/>
+	      </TableRow>
+	      <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Walking"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	       <TableRow>
+	    <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Duration\nhh:mm:ss"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <EditText 
+	      android:id="@+id/wduration"
+	      android:layout_width="150sp" 
+	      android:layout_height="wrap_content" 
+	      android:hint="tap to set time"
+	      android:inputType="none"
+	      android:padding="4dip"/>
+	      </TableRow>
+	      
+	      <TableRow>
+	    <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Distance"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <EditText 
+	      android:id="@+id/distance"
+	      android:layout_width="150sp" 
+	      android:layout_height="wrap_content" 
+	      android:textSize="7pt"
+	      android:maxLength="5"
+	      android:inputType="numberDecimal"
+	      android:padding="4dip"/>
+	      </TableRow>
+	      <TableRow>
+	    <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:text="Calories Burned"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <EditText 
+	      android:id="@+id/wcalori"
+	      android:layout_width="150sp" 
+	      android:layout_height="wrap_content"
+	      android:maxLength="5"
+	      android:inputType="numberDecimal"
+	      android:padding="4dip"/>
+	      </TableRow>
+	      
+	      <TableRow>
+	    <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      </TableRow>
+	       <TableRow>
+	    <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      
+	     <TextView
+	      android:textColor="#000000"
+	      android:layout_column="1"
+	      android:layout_marginLeft="5px"
+	      android:padding="3dip" />
+	      </TableRow>
+	      
+	    </TableLayout>
+	    
+	    </LinearLayout>
+	    </ScrollView>
+	    
+	<LinearLayout 
+	  	android:id="@+id/footer"
+ 		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true" 
+	    style="@android:style/ButtonBar">
+	    
+	    
+	     <Button
+          android:id="@+id/done"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"          
+          android:text="@string/strdone"/>
+            
+	     <Button
+          android:id="@+id/cancel"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:text="@string/strreset" /> 
+      
+	    </LinearLayout>
+	    </RelativeLayout>
+	    </merge>
+	    
+	    
+	    
+	

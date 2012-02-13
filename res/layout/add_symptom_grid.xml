@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/newbaground"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <GridView
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/GridView1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="10dp"
+    android:numColumns="1"
+    android:columnWidth="100dp"
+    android:gravity="center">
+</GridView>
+      
+</LinearLayout>  
+
+<LinearLayout 
+	  	android:id="@+id/footer"
+ 		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true" 
+	    android:background="@android:color/transparent"
+	    style="@android:style/ButtonBar">
+	    
+	    
+	     <Button
+          android:id="@+id/done"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"          
+          android:text="@string/strdone"/>
+            
+	     <Button
+          android:id="@+id/cancel"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:text="Cancel" /> 
+      
+	    </LinearLayout>
+	    </RelativeLayout>
+	    </merge>

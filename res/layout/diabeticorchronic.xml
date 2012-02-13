@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl" 
+  	android:layout_height="fill_parent" 
+    android:layout_width="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <CheckBox
+    android:id="@+id/chkdiabetic"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10px"
+    android:text="Diabetic"/>
+    <CheckBox
+    android:id="@+id/chkchronic"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10px"
+    android:text="Chronic"/>
+    </LinearLayout>
+    <LinearLayout 
+	  	android:id="@+id/footer"
+ 		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal"
+	    android:layout_alignParentBottom="true" 
+	    style="@android:style/ButtonBar">
+	    
+	    
+	     <Button
+          android:id="@+id/btndone"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"  
+          android:layout_gravity="center" 
+          android:text="Done"/>
+          <Button
+          android:id="@+id/btncancel"
+          android:layout_width="150sp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"  
+          android:layout_gravity="center" 
+          android:text="Cancel"/>
+       
+      
+	    </LinearLayout>
+	    </RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40px"
+    android:background="#000000"
+    android:stretchColumns="1">
+<TableRow
+   android:background="@android:color/transparent"
+>
+
+<ImageButton android:id="@+id/imageButton1" 
+android:src="@drawable/a1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:background="#000000"
+  android:padding="3dip"
+>
+</ImageButton>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Week"
+
+    android:editable = "true" 
+    android:id="@+id/text"
+      android:padding="3dip"
+      android:textSize="25px"
+      android:paddingRight="10px"
+      android:gravity="center_vertical|center_horizontal"
+      
+      
+    />
+
+
+<ImageButton android:id="@+id/imageButton2" 
+android:layout_width="wrap_content" 
+android:src="@drawable/a2" 
+android:background="#000000"
+android:layout_height="wrap_content"
+  android:padding="3dip"
+>
+</ImageButton>
+  </TableRow>
+</TableLayout>
+
+    <ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:background="#FFFFFFFF"
+		>
+		
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:background="@drawable/preg"
+    >
+    <ImageButton android:id="@+id/image1" 
+android:layout_width="wrap_content" 
+android:src="@drawable/bar1" 
+android:layout_height="wrap_content"
+  android:padding="3dip"/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Week"
+   android:textColor="#000000"
+    android:editable = "true"
+    android:id="@+id/text1"
+      android:padding="3dip"
+      android:textSize="15px"
+      android:paddingRight="10px"
+      android:gravity="center_vertical|center_horizontal"
+      
+      
+    />
+    
+  <ImageButton android:id="@+id/image2" 
+android:layout_width="wrap_content" 
+android:src="@drawable/bar2" 
+android:layout_height="wrap_content"
+  android:padding="3dip"/>
+  <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Week"
+   android:textColor="#000000"
+    android:editable = "true"
+    android:id="@+id/text2"
+      android:padding="3dip"
+      android:textSize="15px"
+      android:paddingRight="10px"
+      android:gravity="center_vertical|center_horizontal"
+      
+      
+    />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <item android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/icon" />
+        
+        <item android:id="@+id/sync"
+	    android:title="Sync" 
+	    android:icon="@drawable/sync"/>
+</menu>

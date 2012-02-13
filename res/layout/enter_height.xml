@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+    
+    <TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50px"
+    android:background="#000000">
+    <TableRow>
+    <EditText
+    android:id="@+id/edtht1"
+    android:layout_width="50px"
+    android:layout_height="wrap_content"
+     android:maxLength="1"
+    android:inputType="numberDecimal"/>
+    <TextView
+    android:id="@+id/txtht1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="ft"/>
+    
+    
+    <EditText
+    android:id="@+id/edtht2"
+    android:layout_width="50px"
+    android:layout_height="wrap_content"
+     android:maxLength="5"
+    android:inputType="numberDecimal"/>
+    <TextView
+    android:id="@+id/txtht2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="in"/>
+    </TableRow>
+    </TableLayout>     
+</LinearLayout>
